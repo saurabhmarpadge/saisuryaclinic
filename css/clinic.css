@@ -1,0 +1,89 @@
+
+/*
+ * Header Part
+ */
+
+.navbar{
+  text-align: center;
+}
+.nav{
+margin-left: 27%;
+margin-right: 25%;
+}
+
+.title{
+  text-align: center;
+  font-family: "Times New Roman", Georgia, Serif;
+  font-size: 4em;
+}
+
+/* Logo and Desgin */
+
+.container-centering {
+    display: block;
+    text-align: center;
+}
+.image-logo-main {
+    display: inline-block;
+    padding: 15px;
+    height: 190px;
+    margin-top: 15px;
+}
+.image-logo-main-left {
+    float:left;
+    width: 175px;
+}
+.image-logo-main-right {
+    width: 175px;
+    float:right;
+    -moz-transform: scaleX(-1);
+    -o-transform: scaleX(-1);
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+    filter: FlipH;
+    -ms-filter: "FlipH";
+}
+
+
+@media only screen and (max-width: 640px) {
+  .title{
+    font-size: 2em;
+  }
+    .image-logo-main {
+        pading: 0px;
+        margin: 0px;
+        width: 25%;
+        height: 28vw;
+    }
+}
+@media only screen and (min-width: 0px) and ( max-width: 490px) {
+  .title{
+    font-size:  17px;
+  }
+    .image-logo-main-left, .image-logo-main-right {
+        display: none;
+    }
+    .image-logo-main {
+        height: 230px;
+        zidth: 210px;
+    }
+
+}
+
+.body{
+  background-color: white;
+}
+
+.footer-site {
+  text-align: center;
+  color: white;
+  width: 100%;
+  padding: 10px 0;
+  background-color: black;
+}
+
+
+.content{
+  margin-left: 20%;
+  margin-right: 20%;
+}
