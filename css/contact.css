@@ -1,4 +1,6 @@
-
+.body{
+  background-color: #86e8e4 !important;
+}
 /*
  * Header Part
  */
@@ -34,7 +36,7 @@ margin-right: 25%;
     width: 175px;
 }
 .image-logo-main-right {
-    width: 175px;
+    width: 200px;
     float:right;
     -moz-transform: scaleX(-1);
     -o-transform: scaleX(-1);
@@ -72,15 +74,15 @@ margin-right: 25%;
 }
 @media only screen and (min-width: 0px) and ( max-width: 490px) {
   .title{
-    font-size:  17px;
+    font-size:  16px;
   }
     .image-logo-main-left, .image-logo-main-right {
         display: none;
     }
     .image-logo-main {
-        height: 190px;
+        height: 150px;
         zidth: 210px;
-        width: 200px;
+        width: 250px !important;
     }
 
     .images{
@@ -180,4 +182,20 @@ padding-top: 5%;
 .images{
   margin:0;
   text-align: center;
+}
+
+
+
+.navbar{
+  background-color: #90ce01 !important;
+  border-color: #90ce01 !important;
+  color: black !important;
+}
+
+.navbar a:hover{
+  color: white !important;
+}
+
+.navbar a{
+  color: black !important;
 }
