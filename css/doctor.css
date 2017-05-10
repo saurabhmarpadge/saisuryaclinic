@@ -55,6 +55,23 @@ margin-right: 25%;
         width: 25%;
         height: 28vw;
     }
+    .info p{
+      margin-left: 5%;
+      margin-right: 5%;
+      text-align: justify;
+    }
+
+    .infodetail{
+      text-align: justify;
+      margin-left: 5%;
+      margin-right: 5%;
+    }
+
+    .image-logo-main {
+        height: 190px;
+        zidth: 210px;
+        width: 200px;
+    }
 }
 @media only screen and (min-width: 0px) and ( max-width: 490px) {
   .title{
@@ -64,8 +81,24 @@ margin-right: 25%;
         display: none;
     }
     .image-logo-main {
-        height: 230px;
+        height: 190px;
         zidth: 210px;
+        width: 200px;
+    }
+    .info p{
+      margin-left: 10% !important;
+      margin-right: 10% !important;
+      text-align: justify;
+    }
+
+    .infodetail{
+      text-align: justify;
+      margin-left: 10% !important;
+      margin-right: 10% !important;
+    }
+    .profilephoto{
+      height: 200px;
+      width: 150px;
     }
 
 }

@@ -64,8 +64,9 @@ margin-right: 25%;
         display: none;
     }
     .image-logo-main {
-        height: 230px;
+        height: 190px;
         zidth: 210px;
+        width: 200px;
     }
 
 }

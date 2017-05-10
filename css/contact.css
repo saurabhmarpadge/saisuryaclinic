@@ -55,6 +55,20 @@ margin-right: 25%;
         width: 25%;
         height: 28vw;
     }
+
+    .images{
+      padding-left: 5%;
+      border-radius: 5px;
+      border-style: solid;
+      border-color: red;
+    }
+
+    .col-sm-3{
+      text-align: center;
+    }
+    .col-sm-9{
+      text-align: center;
+    }
 }
 @media only screen and (min-width: 0px) and ( max-width: 490px) {
   .title{
@@ -64,8 +78,32 @@ margin-right: 25%;
         display: none;
     }
     .image-logo-main {
-        height: 230px;
+        height: 190px;
         zidth: 210px;
+        width: 200px;
+    }
+
+    .images{
+
+      border-radius: 5px;
+      border-style: solid;
+      border-color: red;
+    }
+    h4{
+      padding-left: 5%;
+    }
+    h2{
+      font-size: 1.5em;
+    }
+    .col-sm-3{
+      text-align: center;
+    }
+    .col-sm-9{
+      text-align: center;
+
+    }
+    .col-sm-9 h4{
+      font-size: 1em;
     }
 
 }
