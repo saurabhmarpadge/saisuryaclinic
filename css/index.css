@@ -3,6 +3,10 @@
  * Header Part
  */
 
+.call{
+  margin: 10%;
+}
+
 .navbar{
   text-align: center;
 }
