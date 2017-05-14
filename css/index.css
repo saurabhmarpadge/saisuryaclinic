@@ -1,11 +1,10 @@
+.call{
+  margin: 5% 10% !important;
+}
 
 /*
  * Header Part
  */
-
-.call{
-  margin: 10%;
-}
 
 .navbar{
   text-align: center;
@@ -53,12 +52,18 @@ margin-right: 25%;
   .title{
     font-size: 2em;
   }
-    .image-logo-main {
-        pading: 0px;
-        margin: 0px;
-        width: 25%;
-        height: 28vw;
-    }
+  .image-logo-main {
+      pading: 0px;
+      margin: 0px;
+      width: 45%;
+      height: 28vw;
+  }
+  .image-logo-main-left{
+    width: 150px;
+  }
+  .image-logo-main-right{
+    width: 150px;
+  }
 }
 @media only screen and (min-width: 0px) and ( max-width: 490px) {
   .title{
